@@ -23,7 +23,8 @@ def function_2(x):
 init_x = np.array([-3.0, 4.0])    
 
 lr = 0.1
-step_num = 20
+#step_num = 20
+step_num = 100
 x, x_history = gradient_descent(function_2, init_x, lr=lr, step_num=step_num)
 
 plt.plot( [-5, 5], [0,0], '--b')
